@@ -8,7 +8,7 @@ image_dir = File.join current_dir, 'images'
 
 #images to be compared 
 images = [
-	['papiga.png', 'deo.png']
+	['parot.png', 'template.png']
 ]
 
 images.each_with_index do |pair, i|
@@ -34,3 +34,9 @@ images.each_with_index do |pair, i|
 	else
 		puts "\n No match."
 	end
+
+	puts "\n Search time using '#{image_matcher.strategy}': #{image_matcher.benchmark.total} seconds \n"
+
+	puts "-" * 25
+	puts 
+end
