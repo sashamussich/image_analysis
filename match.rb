@@ -30,7 +30,7 @@ images.each_with_index do |pair, i|
 	image_matcher.match!
 
 	if image_matcher.match?
-		puts "\n Yes. Matches at: " + image_matcher.match_result.join '/'
+		puts "\n Yes. Matches at: " + image_matcher.match_result.join 
 	else
 		puts "\n No match."
 	end
