@@ -8,7 +8,7 @@ image_dir = File.join current_dir, 'images'
 
 #images to be compared 
 images = [
-	['parot.png', 'template.png']
+	['slika.jpg', 'deo.jpg']
 ]
 
 images.each_with_index do |pair, i|
